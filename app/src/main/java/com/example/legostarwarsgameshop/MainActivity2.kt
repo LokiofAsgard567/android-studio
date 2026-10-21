@@ -29,7 +29,7 @@ class MainActivity2 : AppCompatActivity() {
         optie1.setOnClickListener {
             val TCS = "The Complete Saga"
             val intent = Intent(this@MainActivity2, MainActivity3::class.java)
-            intent.putExtra("TCS", TCS)
+            intent.putExtra("selectedGame", TCS)
 
             startActivity(intent)
         }
@@ -37,14 +37,14 @@ class MainActivity2 : AppCompatActivity() {
         optie2.setOnClickListener {
             val CW = "Clone Wars"
             val intent = Intent(this@MainActivity2, MainActivity3::class.java)
-            intent.putExtra("CW", CW)
+            intent.putExtra("selectedGame", CW)
 
             startActivity(intent)
         }
         optie3.setOnClickListener {
             val TFA = "The Force Awakens"
             val intent = Intent(this@MainActivity2, MainActivity3::class.java)
-            intent.putExtra("TFA", TFA)
+            intent.putExtra("selectedGame", TFA)
 
             startActivity(intent)
         }
@@ -52,7 +52,7 @@ class MainActivity2 : AppCompatActivity() {
         optie4.setOnClickListener {
             val TSS = "The Skywalker Saga"
             val intent = Intent(this@MainActivity2, MainActivity3::class.java)
-            intent.putExtra("TSS", TSS)
+            intent.putExtra("selectedGame", TSS)
 
             startActivity(intent)
         }

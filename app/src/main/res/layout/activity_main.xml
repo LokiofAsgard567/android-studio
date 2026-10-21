@@ -83,6 +83,7 @@
         android:layout_width="121dp"
         android:layout_height="58dp"
         android:text="Start"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
