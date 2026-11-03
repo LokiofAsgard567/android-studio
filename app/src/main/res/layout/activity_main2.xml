@@ -41,7 +41,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482"/>
+        app:layout_constraintVertical_bias="0.482">
+
+    </FrameLayout>
 
     <TextView
         android:id="@+id/textView12"
@@ -352,5 +354,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.928"
         app:srcCompat="@android:drawable/screen_background_dark" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
