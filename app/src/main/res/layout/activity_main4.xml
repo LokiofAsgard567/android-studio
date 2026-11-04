@@ -8,4 +8,196 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <Button
+      android:id="@+id/back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/design_default_color_error"
+      android:text="Back"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.003"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <Button
+      android:id="@+id/home3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/material_dynamic_neutral_variant20"
+      android:text="Home"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.501"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <Button
+      android:id="@+id/next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/design_default_color_secondary_variant"
+      android:text="Next"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <ImageView
+      android:id="@+id/imageView16"
+      android:layout_width="356dp"
+      android:layout_height="5dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.527"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.191"
+      app:srcCompat="@android:drawable/screen_background_dark" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editText3"
+      android:layout_width="360dp"
+      android:layout_height="50dp"
+      android:hint="First name"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.647"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.405" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editText2"
+      android:layout_width="360dp"
+      android:layout_height="50dp"
+      android:hint="Adress"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.611"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.283" />
+
+  <TextView
+      android:id="@+id/textView24"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Email address:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.153"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.571" />
+
+  <TextView
+      android:id="@+id/textView23"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Last name:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.117"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.461" />
+
+  <TextView
+      android:id="@+id/textView22"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="First name:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.125"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.351" />
+
+  <TextView
+      android:id="@+id/textView21"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Adress:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.106"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.227" />
+
+  <TextView
+      android:id="@+id/textView19"
+      android:layout_width="321dp"
+      android:layout_height="94dp"
+      android:text="Enter the neccesary detailes:"
+      android:textColor="@color/design_default_color_secondary_variant"
+      android:textSize="35dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.366"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.055" />
+
+  <TextView
+      android:id="@+id/textView20"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Payment method:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.176"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.682" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:layout_width="360dp"
+      android:layout_height="50dp"
+      android:hint="Last name"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.647"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.516" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editText4"
+      android:layout_width="360dp"
+      android:layout_height="50dp"
+      android:hint="Email adress"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.607"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.628" />
+
+  <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editText5"
+      android:layout_width="360dp"
+      android:layout_height="50dp"
+      android:hint="Payment method"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.49"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.741" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.legostarwarsgameshop
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,13 +28,20 @@ class MainActivity3 : AppCompatActivity() {
 
         val knop = findViewById<Button>(R.id.next1)
         val knop2 = findViewById<Button>(R.id.home2)
+        val knop3 = findViewById<Button>(R.id.back1)
 
+        
         knop.setOnClickListener {
             val intent = Intent(this, MainActivity4::class.java)
             startActivity(intent)
         }
         knop2.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        knop3.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
 
