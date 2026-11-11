@@ -34,6 +34,8 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
         optie2.setOnClickListener {
             val CW = "Clone Wars"
             val intent = Intent(this@MainActivity2, MainActivity3::class.java)
@@ -41,6 +43,7 @@ class MainActivity2 : AppCompatActivity() {
 
             startActivity(intent)
         }
+
         optie3.setOnClickListener {
             val TFA = "The Force Awakens"
             val intent = Intent(this@MainActivity2, MainActivity3::class.java)

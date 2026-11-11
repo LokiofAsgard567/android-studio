@@ -30,7 +30,8 @@ class MainActivity3 : AppCompatActivity() {
         val knop2 = findViewById<Button>(R.id.home2)
         val knop3 = findViewById<Button>(R.id.back1)
 
-        
+
+
         knop.setOnClickListener {
             val intent = Intent(this, MainActivity4::class.java)
             startActivity(intent)

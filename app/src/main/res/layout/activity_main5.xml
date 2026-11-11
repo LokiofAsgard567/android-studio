@@ -8,4 +8,178 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <TextView
+      android:id="@+id/textView32"
+      android:layout_width="339dp"
+      android:layout_height="74dp"
+      android:text="Email Adress:"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.222"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.685" />
+
+  <Button
+      android:id="@+id/next2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/design_default_color_secondary_variant"
+      android:text="Next"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <TextView
+      android:id="@+id/textView29"
+      android:layout_width="345dp"
+      android:layout_height="77dp"
+      android:text="These are your personal details:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.225"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.405" />
+
+  <TextView
+      android:id="@+id/textView28"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Confirm all detailes:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.109"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.057" />
+
+  <ImageView
+      android:id="@+id/imageView18"
+      android:layout_width="356dp"
+      android:layout_height="5dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.29"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.131"
+      app:srcCompat="@android:drawable/screen_background_dark" />
+
+  <TextView
+      android:id="@+id/textView27"
+      android:layout_width="341dp"
+      android:layout_height="65dp"
+      android:text="Adress:"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView30"
+      android:layout_width="339dp"
+      android:layout_height="74dp"
+      android:text="First Name:"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.222"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.589" />
+
+  <TextView
+      android:id="@+id/textView31"
+      android:layout_width="339dp"
+      android:layout_height="74dp"
+      android:text="Payment Method:"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.194"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.781" />
+
+  <Button
+      android:id="@+id/home4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/material_dynamic_neutral_variant20"
+      android:text="Home"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.501"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <Button
+      android:id="@+id/back2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/design_default_color_error"
+      android:text="Back"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.003"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <ImageView
+      android:id="@+id/imageView17"
+      android:layout_width="356dp"
+      android:layout_height="5dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.29"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.362"
+      app:srcCompat="@android:drawable/screen_background_dark" />
+
+  <TextView
+      android:id="@+id/textView26"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="You are about to buy:"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.109"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.171" />
+  <TextView
+      android:id="@+id/selectedGameLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.463"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.25" />
+
+  <TextView
+      android:id="@+id/detail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView"
+      tools:layout_editor_absoluteX="84dp"
+      tools:layout_editor_absoluteY="400dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

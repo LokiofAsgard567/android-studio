@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -22,10 +23,12 @@ class MainActivity4 : AppCompatActivity() {
         val knop = findViewById<Button>(R.id.next)
         val knop2 = findViewById<Button>(R.id.home3)
         val knop3 = findViewById<Button>(R.id.back)
-
+        val Adress1 = findViewById<EditText>(R.id.adress)
 
         knop.setOnClickListener {
+            val adress = Adress1
             val intent = Intent(this, MainActivity5::class.java)
+            intent.putExtra("detail", adress.text.toString())
             startActivity(intent)
         }
         knop2.setOnClickListener {
