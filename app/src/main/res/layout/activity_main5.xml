@@ -179,9 +179,14 @@
 
   <TextView
       android:id="@+id/detail"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_width="268dp"
+      android:layout_height="31dp"
       android:text="TextView"
-      tools:layout_editor_absoluteX="84dp"
-      tools:layout_editor_absoluteY="400dp" />
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.643"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.475" />
 </androidx.constraintlayout.widget.ConstraintLayout>

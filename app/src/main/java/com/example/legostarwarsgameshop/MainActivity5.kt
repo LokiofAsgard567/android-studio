@@ -23,6 +23,7 @@ class MainActivity5 : AppCompatActivity() {
         val message1 = getIntent().getStringExtra("detail");
         val label1 = findViewById<TextView>(R.id.detail)
         label1.setText(message1)
+
         val knop = findViewById<Button>(R.id.next2)
         val knop2 = findViewById<Button>(R.id.home4)
         val knop3 = findViewById<Button>(R.id.back2)

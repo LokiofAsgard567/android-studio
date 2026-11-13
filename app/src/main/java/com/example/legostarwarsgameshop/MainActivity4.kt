@@ -31,6 +31,7 @@ class MainActivity4 : AppCompatActivity() {
             intent.putExtra("detail", adress.text.toString())
             startActivity(intent)
         }
+
         knop2.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
